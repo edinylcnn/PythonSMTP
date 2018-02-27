@@ -43,7 +43,6 @@ try:
     mail = mail.as_string()
     print("Please Wait...")
     
-    #s = smtplib.SMTP_SSL('smtp.yandex.com.tr', 465)
     s = smtplib.SMTP(smtp_adres, smtp_port)
     #Şifreli bağlantıyı açıyoruz
     s.starttls()
